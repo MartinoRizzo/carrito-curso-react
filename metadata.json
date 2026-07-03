@@ -1,0 +1,6 @@
+{
+  "name": "Carrito de Compras",
+  "description": "Aplicación de carrito de compras en React, con autenticación, CRUD de productos en Firebase, roles de administrador y opiniones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
