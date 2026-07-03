@@ -158,7 +158,7 @@ function MainApp() {
             <div className="space-y-4">
               <span className="text-white font-bold text-lg tracking-tight flex items-center space-x-2">
                 <Sparkles className="h-5 w-5 text-indigo-400" />
-                <span>ElectroCart Premium</span>
+                <span>Martin Rizzo</span>
               </span>
               <p className="text-xs text-slate-400 leading-relaxed">
                 Plataforma de comercio electrónico diseñada como Proyecto Final de React JS, integrada de forma nativa con Firebase Authentication y Cloud Firestore.
@@ -182,11 +182,7 @@ function MainApp() {
               <div className="text-xs text-slate-400 space-y-2">
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-3.5 w-3.5 text-slate-500" />
-                  <span>Soporte Académico - React JS</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Phone className="h-3.5 w-3.5 text-slate-500" />
-                  <span>+54 (11) 5555-0199</span>
+                  <span>Curso - React </span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-3.5 w-3.5 text-slate-500" />
@@ -197,7 +193,7 @@ function MainApp() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between text-xxs text-slate-500">
-            <span>© 2026 ElectroCart. Todos los derechos reservados. Proyecto Final de Alto Rendimiento.</span>
+            <span>© 2026 Martin Rizzo. Proyecto Final.</span>
             <div className="flex items-center space-x-2 mt-2 sm:mt-0 font-medium">
               <Shield className="h-3.5 w-3.5 text-indigo-400" />
               <span className="text-slate-400">Protección por Reglas de Seguridad de Firestore</span>

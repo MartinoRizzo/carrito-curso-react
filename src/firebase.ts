@@ -13,8 +13,8 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-// Use explicit database ID from environment variables
+// Use explicit database ID from environment variables if provided
 const dbId = import.meta.env.VITE_FIREBASE_FIRESTORE_DATABASE_ID;
-export const db = getFirestore(app, dbId);
+export const db = dbId ? getFirestore(app, dbId) : getFirestore(app);
 export const auth = getAuth(app);
 export default app;
